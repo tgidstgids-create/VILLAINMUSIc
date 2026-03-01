@@ -5,15 +5,15 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-OWNER_ID = int(os.getenv("OWNER_ID", None))
-OWNER_USERNAME = os.getenv("OWNER_USERNAME", "WTF_WhyMeeh")
-BOT_USERNAME = os.getenv("BOT_USERNAME", "ShrutixMusicBot")
+API_ID = int(os.getenv("36877354"))
+API_HASH = os.getenv("3d87e9207319d3cf064f26c54579bf33")
+BOT_TOKEN = os.getenv("8387958218:AAFZamHist27J2a9fMIcrgfSH57FyFpf1CU")
+OWNER_ID = int(os.getenv("8523926335", None))
+OWNER_USERNAME = os.getenv("OWNER_USERNAME", "@VILLAIN_DAD0")
+BOT_USERNAME = os.getenv("BOT_USERNAME", "http://t.me/NEWMUSOC_BOT")
 
-MONGO_DB_URI = os.getenv("MONGO_DB_URI", None)
-LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", None))
+MONGO_DB_URI = os.getenv("mongodb+srv://bsdk:betichod@cluster0.fgj1r9z.mongodb.net/?retryWrites=true&w=majority", None)
+LOG_GROUP_ID = int(os.getenv("-5298217560", None))
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 
@@ -21,9 +21,9 @@ UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/NoxxOP/ShrutiMusi
 UPSTREAM_BRANCH = os.getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/ShrutiBots")
-SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/ShrutiBotsSupport")
-INSTAGRAM = os.getenv("INSTAGRAM", "https://instagram.com/yaduwanshi_nand")
+SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/VILLAIN_BOT_UPDATES")
+SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/V_MUSIC_CHAT")
+INSTAGRAM = os.getenv("INSTAGRAM", "")
 YOUTUBE = os.getenv("YOUTUBE", "https://youtube.com/@NandEditz")
 GITHUB = os.getenv("GITHUB", "https://github.com/NoxxOP")
 DONATE = os.getenv("DONATE", "https://t.me/ShrutiBots/91")
