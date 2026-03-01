@@ -4,9 +4,8 @@ from dotenv import load_dotenv
 from pyrogram import filters
 
 load_dotenv()
-
-API_ID = int(os.getenv("36877354"))
-API_HASH = os.getenv("3d87e9207319d3cf064f26c54579bf33")
+API_ID = int(os.getenv("33733291"))  # Environment variable name "API_ID" hona chahiye
+API_HASH = os.getenv("cdf33e1ff6eb07e1a761b65b5e49fe2b")
 BOT_TOKEN = os.getenv("8387958218:AAFZamHist27J2a9fMIcrgfSH57FyFpf1CU")
 OWNER_ID = int(os.getenv("8523926335", None))
 OWNER_USERNAME = os.getenv("OWNER_USERNAME", "@VILLAIN_DAD0")
